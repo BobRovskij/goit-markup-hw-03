@@ -1,0 +1,266 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid #ECECEC;
+}
+/* Ссилки навігації */
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+.site-nav {
+    display: flex;
+}
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.site-nav .item {
+    display: flex;
+}
+/* Ссилки навігації(контакти) */
+.site-navi {
+    display: flex;
+}
+.site-navi .item {
+    display: flex;
+}
+.site-navi .item:not(:last-child) {
+    margin-right: 50px;
+}
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+    text-transform: capitalize ;
+    padding-bottom: 200px;
+}
+.button {
+    /* position: absolute; */
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+    text-align: center;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.up {
+    padding-top: 200px ;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.title-skills {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.skills li:not(:last-child) {
+    margin-right: 30px;
+}
+.skills li {
+    width: 270px;
+    height: 101px;
+}
+.font {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.title-two {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.our-work {
+    display: flex;
+    justify-content: center;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.picture {
+    width: 370px;
+    height: 294px;
+}
+.picture:not(:last-child) {
+    margin-right: 30px;
+}
+.team {
+    background-color: #F5F4FA;
+    height: 648px;
+}
+.humans {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 94px; */
+}
+.workers:not(:last-child) {
+    margin-right: 30px;
+}
+.humans li {
+    width: 270px;
+    height: 260px;
+}
+.workers {
+    width: 270px;
+    height: 368px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.footer-container {
+    display: block
+}
+.footer{
+    background-color: rgb(47,48,58,1);
+    color: rgb(255,255,255,1);
+    /* padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px; */
+    margin-top: 94px;
+}
+.footer a {
+    padding-top: 60px;
+    width: 145px;
+
+}
+.contact {
+   display: flex;
+   margin-top: 20px;
+}
+.link {
+    text-decoration: none;
+    /* outline: 1px solid red; */
+}
+ul {
+    list-style: none;
+}
+.transparent {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.adress {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.active {
+    color: rgb(33,150,243,1);
+}
+.passive {
+    color: rgb(33,33,33,1);
+}
+.decoration {
+    color: rgb(117,117,117,1);
+}
+.email {
+    color: #757575;
+  
+}
+.email:hover {
+    color: #2196F3;
+}
+/* PORTFOLIO*/
+.test-container {
+    width: 1230px;
+    /* height: 1360px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    padding: 0px;
+}
+.flex-element {
+    width: 370px;
+    /* height: 404px; */
+    margin: 15px;
+    border: 1px solid #EEEEEE
+}
+.button-active { 
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.buttons-portfolio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.buttons-portfolio li {
+    margin-left: 8px;
+    margin-top: 94px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+/* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+.uppercase {
+    text-transform: capitalize;
+}
