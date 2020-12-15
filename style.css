@@ -7,13 +7,8 @@ header {
     margin-right: auto;
     display: flex;
     align-items: center;
-
-
 }
 .main-nav {
-    max-width: 1600px;
-    height: 80px;
-
     display: flex;
     align-items: center;
 
@@ -29,6 +24,8 @@ header {
 .item {
     display: flex;
     align-items: center;
+    
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -82,7 +79,6 @@ header {
     /*ГЕРОЙ*/
 
 .banner {
-    min-width: 1370px;
     background-color: #2F303A;
     text-align: center;
     padding-bottom: 200px;
@@ -92,7 +88,7 @@ header {
     padding-bottom: 30px;
     margin: 0px;
     
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -114,7 +110,7 @@ header {
     border-radius: 4px;
 }
 .button span {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -132,43 +128,19 @@ header {
 .skills {
     margin-top: 94px;
     margin-bottom: 94px;
-
-    /* width: 1170px;
-    height: 101px;
-    margin-top: 94px;
-    margin-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0px; */
 } 
 .skills ul {
+    padding-left: 0px;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
-
-
-.feature-one {
+.feature {
     width: 270px;
-    height: 101px;
-}
-.feature-two {
-    width: 270px;
-    height: 101px;
-}
-.feature-three {
-    width: 270px;
-    height: 101px;
-}
-.feature-four {
-    width: 270px;
-    height: 101px;
 }
 .title-skills {
-    width: 270px;
-    height: 16px;
     margin: 0px;
     
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -181,8 +153,11 @@ header {
 .skills li:not(:last-child) {
     margin-right: 30px;
 }
-.font {
-    font-family: Roboto;
+.feature p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -204,7 +179,7 @@ header {
 .title-two {
     margin: 0px;
     
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -239,7 +214,9 @@ header {
     background: #F5F4FA;
 }
 .title-three {
-    font-family: Roboto;
+    margin: 0px;
+
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -250,10 +227,6 @@ header {
     color: #212121;
 }
 .humans {
-    width: 1170px;
-    height: 368px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
     padding-left: 0px;
     
@@ -262,9 +235,6 @@ header {
 
 }
 .workers {
-    width: 270px;
-    height: 368px;
-
     background: #FFFFFF;
     /* material shadow v1 */
     
@@ -279,7 +249,7 @@ header {
     margin-top: 30px;
     margin-bottom: 10px;
 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -292,7 +262,10 @@ header {
     color: #212121;
 }
 .workers p {
-    font-family: Roboto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -316,7 +289,6 @@ header {
 }
 .container-footer {
     width: 1170px;
-    height: 132px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -341,7 +313,7 @@ header {
     margin-bottom: 9px;
 }
 .adress {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -356,7 +328,7 @@ header {
     text-decoration: none;
 }
 .transparent {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -379,17 +351,14 @@ header {
 /* PORTFOLIO*/
 
 .test-container {
-    /* position: absolute; */
     width: 1170px;
     height: 1360px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 94px;
     margin-bottom: 94px;
-
 }
 .filters {
-    /* position: absolute; */
     width: 611px;
     height: 54px;
     margin-bottom: 34px;
@@ -408,7 +377,7 @@ header {
     padding: 6px 22px;
     border: 0px;
 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -435,7 +404,7 @@ header {
 }
 .flex-element {
     width: 370px;
-    height: 404px;
+    /* height: 404px; */
     margin: 15px;
     border: 1px solid #EEEEEE
 }
@@ -444,8 +413,8 @@ header {
     margin-left: 24px;
     margin-bottom: 4px;
 
-
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: Roboto; */
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -462,7 +431,7 @@ header {
     margin-bottom: 20px;
     margin-top: 0px;
 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -474,16 +443,6 @@ header {
     color: #757575;
     
 }
-.footer-portfolio {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    padding-top: 60px;
-
-    background: #2F303A;
-    
-}
-
 ul {
     list-style: none;
 }
